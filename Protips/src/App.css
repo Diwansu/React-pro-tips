@@ -1,0 +1,88 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100vw;
+  color:white;
+  font-size: 31px;
+  place-items: center;
+  height:70px;
+}
+
+.formContainer{
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  width: 80vw;
+  height:80vh;
+}
+.useForm {
+  width:60%;
+  height: 100%;
+  margin: 50px;
+  text-align: center;
+}
+
+input{
+  width:24%;
+  text-align: center;
+  height:7%;
+  font-size: 10px;
+  margin:10px;
+}
+.Success-message{
+  color: green;
+  font-size: 25px;
+}
+
+.button{
+  margin:20px;
+  background-color: green;
+  width: 24%;
+  height: 7%;
+  color: whitesmoke;
+}
+
+.errorMessage{
+  color:red;
+}
+
+
